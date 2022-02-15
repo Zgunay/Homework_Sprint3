@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-15T12:17:36.399Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2319035800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sprint3.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login as HR User",
+        "description": "",
+        "id": "hr-user-should-be-able-to-login--page;login-as-hr-user",
+        "after": [
+          {
+            "result": {
+              "duration": 330598800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sprint3.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11325652100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.sprint3.step_definitions.LoginStep.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2880714900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify the user",
+            "match": {
+              "location": "com.sprint3.step_definitions.LoginStep.verify_the_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "HR user should be able to login  page",
+    "description": "",
+    "id": "hr-user-should-be-able-to-login--page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
